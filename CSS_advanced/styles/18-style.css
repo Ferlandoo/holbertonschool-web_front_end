@@ -132,13 +132,13 @@ main {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
-    text-indent: var(--nav-item-letter-spacing);
+    letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
 .nav .nav-link {
     display: block;
-    padding-top: 0.5rem 0;
+    padding-top: 0.5rem 1;
 }
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover)
